@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# 🌟 Flutterwave-Like Payment Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Flutterwave-Like Payment Dashboard**, a state-of-the-art, responsive, and interactive payment analytics platform designed to empower businesses with real-time transaction insights and management tools. 🚀
 
-## Available Scripts
+## 📌 Features
 
-In the project directory, you can run:
+✅ **Dashboard Overview** - Get a comprehensive summary of total transactions, revenue, and breakdown of successful, failed, and pending transactions.
+✅ **Interactive Charts** - Visualize key transaction data using **Recharts**, including bar charts for trends.
+✅ **Transaction Table** - View a detailed, paginated transaction list with sorting and filtering options.
+✅ **Search & Filters** - Easily find transactions by **Customer Name** or **Transaction ID**.
+✅ **Responsive UI** - Fully optimized for both **desktop** and **mobile** experiences.
+✅ **Error Handling** - Graceful UI error handling when data fails to load.
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| **Technology**           | **Purpose**             |
+| ------------------------ | ----------------------- |
+| **React.js**             | Frontend Framework      |
+| **Bootstrap/Ant Design** | UI Components & Styling |
+| **Recharts**             | Data Visualization      |
+| **Axios/Fetch**          | API Data Fetching       |
+| **React Hooks**          | State Management        |
+| **JavaScript (ES6+)**    | Core Logic              |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Project Structure
 
-### `npm test`
+```
+flutterwave-dashboard/
+├── src/
+│   ├── components/   # Reusable UI Components
+│   ├── pages/        # Dashboard & Transaction Pages
+│   ├── styles/       # CSS/Ant Design Custom Styles
+│   ├── App.js        # Main App Entry Point
+│   ├── index.js      # Root Render File
+│   └── api.js        # API Calls Handling
+├── public/
+├── package.json      # Dependencies & Scripts
+└── README.md         # This File 😎
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### **1️⃣ Clone the Repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+git clone https://github.com/yourusername/flutterwave-dashboard.git
+cd flutterwave-dashboard
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **2️⃣ Install Dependencies**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm install
+```
 
-### `npm run eject`
+### **3️⃣ Run the Development Server**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open <http://localhost:3000> in your browser to see the dashboard live! 🎉
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📈 How It Works
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- The app **fetches transaction data** from a provided JSON dataset.
+- The **dashboard dynamically updates** transaction statistics and insights.
+- Users can **search, filter, and paginate** through transactions efficiently.
+- The UI is designed to be **clean, modern, and business-friendly**.
 
-## Learn More
+## 🛠️ Customization & Enhancements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Want to add more features? Here are some ideas:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- ✅ **Dark Mode Support** 🌙
+- ✅ **Multi-Language Support** 🌍
+- ✅ **Advanced Filters & Exporting Options** 📊
+- ✅ **User Authentication & Role-Based Access** 🔒
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We welcome contributions! Feel free to **fork** the repo, create a new branch, and submit a **pull request**.
 
-### Analyzing the Bundle Size
+## 📜 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is **open-source** and available under the **MIT License**.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🚀 _Built with passion, innovation, and a touch of genius by CODEwithESE!_
